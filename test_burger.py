@@ -179,4 +179,4 @@ def test_get_receipt(burger, bun_name, ingredients_info, expected_lines):
     # Проверяем, что все ожидаемые строки присутствуют в чеке (и в правильном порядке)
     assert len(receipt_lines) == len(expected_lines), "Количество строк не совпадает"
     for expected, actual in zip(expected_lines, receipt_lines):
-        assert expected == actual, f"Ожидалось: '{expected}', получено: '{actual}'"
+        assert expected == actual, f"Ожидалось: '{expected}', получено: '{actual}'"   
