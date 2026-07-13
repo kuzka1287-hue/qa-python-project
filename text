@@ -1,0 +1,19 @@
+ui_tests/
+├── pages/
+│   ├── __init__.py
+│   ├── base_page.py
+│   ├── main_page.py
+│   ├── modal_window.py
+│   ├── orders_feed_page.py
+│   └── login_page.py
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_navigation.py
+│   ├── test_ingredient.py
+│   ├── test_ingredient_counter.py
+│   └── test_order_feed.py
+├── data.py
+├── utils.py
+├── requirements.txt
+└── README.md
